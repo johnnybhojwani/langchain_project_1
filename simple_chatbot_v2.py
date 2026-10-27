@@ -45,6 +45,7 @@ while True:
   except Exception as e:
     reply = str(e)
 
+  # to create an emoji, use the windows key + '.'
   print(f"🤖 Asistant: {reply}\n")
   print("-"*60)
 
